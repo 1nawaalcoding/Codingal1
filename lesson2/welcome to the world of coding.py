@@ -1,0 +1,5 @@
+print("welcome to the world of coding")
+print(23)
+print(" hello python\n")
+print(" I am nawaal ", "I am 10 years old", 2 )
+print( "how are you", end="$")
