@@ -1,6 +1,6 @@
-def shutdown():
-    i=str(input("do you want to shutdown your computer(yes/no)"))
-    if i == no:
-        print("ok bye")
-    else:
-        print("st")
+import os
+shutdown=input("do you want to shutdown your computer?(yes/no):")
+if shutdown=='no':
+    exit()
+else:
+    os.system("shutdown /s /t 1")
